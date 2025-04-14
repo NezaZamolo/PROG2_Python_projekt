@@ -1,1 +1,3 @@
 # PROG2_Python_projekt
+
+Ta projekt omogoča celovito analizo vremenskih podatkov za izbrana mesta (Ljubljana, Maribor, Koper). Z uporabo podatkov iz vremenskega API-ja in zgodovinskih virov izračuna osnovne statistike (temperature, padavine, veter, pritisk), zazna vremenske anomalije, identificira ekstremne dogodke ter primerja mesta med seboj. Uporabniku nudi interaktivno konzolno aplikacijo za raziskovanje podatkov po mestih, datumih ali izbranih meritvah. Poleg tega samodejno generira PDF poročilo z grafi, povzetki in tabelami, celotno analizo pa je možno shraniti in ponovno naložiti za nadaljnjo uporabo.
