@@ -32,3 +32,49 @@ Additionally, the project automatically generates a professional PDF report feat
 
    ```bash
    pip install -r requirements.txt
+
+
+## Usage
+
+1. Run the main script:
+
+   python main.py
+
+2. Use the interactive console to:
+   - View full startup report
+   - Explore city data (summaries, extremes, anomalies, daily records)
+   - Compare statistics between cities
+   - Export data to CSV
+   - Generate detailed PDF reports
+
+3. All exported files (plots, CSVs, PDFs) are automatically saved in the corresponding folders (`plots/`, `exports/`).
+
+---
+
+## Project Structure
+
+├── main.py                 # Main entry point for the application
+├── interactive_console.py   # Interactive console application
+├── models/
+│   ├── city.py              # Model for city weather analysis
+│   ├── historical.py        # Model for historical weather analysis
+│   ├── weather_dataset.py   # Model for cross-city weather dataset analysis
+├── utils/
+│   ├── fetch.py             # Fetching weather data
+│   ├── plotting.py          # Utility functions for creating plots
+├── pdf_generator.py         # Generates PDF reports based on the analysis
+├── pdf_exporter.py          # Helper class for PDF formatting and exporting
+├── exports/                 # Folder where exported CSV files are saved
+├── plots/                   # Folder where generated plots are saved
+└── requirements.txt         # List of project dependencies
+
+---
+
+## Notes
+
+- The `plots/` and `exports/` folders are automatically created if they do not exist.
+- An active internet connection is required to fetch real-time and historical weather data.
+- All CSV exports can be directly opened in Excel for further analysis or visualization.
+- The PDF reports include summaries, tables, detected anomalies, extremes, and visual graphs.
+
+---
