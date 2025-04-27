@@ -26,7 +26,7 @@ Additionally, the project automatically generates a professional PDF report feat
 
 ## Installation
 
-1. Make sure you have **Python 3.8+** installed.
+1. Make sure you have **Python 3.9+** installed.
 2. Clone the repository or download the source code.
 3. Install the required Python libraries:
 
