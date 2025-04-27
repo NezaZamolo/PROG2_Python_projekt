@@ -32,6 +32,7 @@ Additionally, the project automatically generates a professional PDF report feat
 
    ```bash
    pip install -r requirements.txt
+   ```
 
 ---
 
