@@ -54,7 +54,7 @@ Additionally, the project automatically generates a professional PDF report feat
 
 ## Project Structure
 
-"""
+```
 ├── main.py                 # Main entry point for the application
 ├── interactive_console.py   # Interactive console application
 ├── models/
@@ -69,7 +69,7 @@ Additionally, the project automatically generates a professional PDF report feat
 ├── exports/                 # Folder where exported CSV files are saved
 ├── plots/                   # Folder where generated plots are saved
 └── requirements.txt         # List of project dependencies
-"""
+```
 
 ---
 
