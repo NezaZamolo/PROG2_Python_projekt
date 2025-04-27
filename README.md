@@ -79,5 +79,3 @@ Additionally, the project automatically generates a professional PDF report feat
 - An active internet connection is required to fetch real-time and historical weather data.
 - All CSV exports can be directly opened in Excel for further analysis or visualization.
 - The PDF reports include summaries, tables, detected anomalies, extremes, and visual graphs.
-
----
