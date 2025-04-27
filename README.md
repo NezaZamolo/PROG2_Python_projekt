@@ -55,7 +55,7 @@ Additionally, the project automatically generates a professional PDF report feat
 ## Project Structure
 
 ```
-├── main.py                 # Main entry point for the application
+├── main.py                  # Main entry point for the application
 ├── interactive_console.py   # Interactive console application
 ├── models/
 │   ├── city.py              # Model for city weather analysis
